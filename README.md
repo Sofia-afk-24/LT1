@@ -1,62 +1,60 @@
-# Author: Princess Sofia H. Macala
-# Section: 8 - Adelfa
-# Date: September 19, 2026
-
 # PROJECT TITLE: Circular Garden Information Calculator
 
-## Description: This program helps determine the information about a circular garden based on the radius entered by the user
+## Description: 
+- This program helps determine the information about a circular garden based on the radius entered by the user.
 
+## Problem Identification
+- The school plans to create a circular garden. The problem is developing a python program that will determine information about the garden based on a radius entered by the user which is in simple words calculating the area, circumference, and square root.
 
-### This allows us to use the math library so we can use math functions like math.sqrt, math.pow, etc.
+## Problem Decomposition
+- Getting the information (Input)
+- Calculating the information (Process)
+- Displaying the results (Output)
+
+## Data Representation
+- The data consist of numerical values and thus can be represented in real or float data types
+
+## How to Run
+- Just give the measure of the radius to the program and it will calculate the needed information to construct a circular garden.
+
+## Input Needed
+- Radius of the circular garden
+
+## Pattern Recognition
+### Use the formulas of:
+- area
+- circumference
+- square root
+
+## Algorithm Development
 import math
+input radius
+calculate area
+calculate circumference
+calculate square root of area
+calculate rounded down area 
+calculate rounded up area
+output area to 2 decimal places
+output circumference to 2 decimal places
+output square root of area to 2 decimal places
+output rounded down area 
+output rounded up area
 
-# INPUT STAGE: Get information for the problem
+## Sample Output #1
+Input: 5 
+Area of Garden is: 78.54 square meters
+Circumference of Garden is: 31.42 meters
+Square root of the area is : 8.86
+Area rounded down: 78 square meters
+Area rounded up: 79 square meters
 
-### Gets the Radius of the garden.
-GardenRadius = float(input("Enter Garden radius in meters: "))
+## Sample Output #2
+Input: 7
+Area of Garden is: 153.94 square meters
+Circumference of Garden is: 43.98 meters
+Square root of the area is : 12.41
+Area rounded down: 153 square meters
+Area rounded up: 154 square meters
 
-# PROCESS STAGE: Calculate for the complete information of the circular garden
-
-### Calculates for the area of the circular garden.
-Area = math.pi*math.pow(GardenRadius, GardenRadius)
-
-### Calculates for the circumference of the circular garden.
-Circumference = 2*math.pi*GardenRadius
-
-### Calculates for the square root of the area of the circular garden.
-SquareRoot = math.sqrt(Area)
-
-### Rounds down the area to the nearest whole number.
-AreaDown = math.floor(Area)
-
-### Rounds up the area to the nearest whole number.
-AreaUp = math.ceil(Area)
-
-# OUTPUT STAGE: Display the results.
-
-### Display the area of the garden
-print(f"Area of Garden is: {Area:.2f} square meters")
-
-### Display the circumference of the garden
-print(f"Circumference of Garden is: {Circumference:.2f} meters")
-
-### Display the square root of the garden
-print(f"Square root of area is: {SquareRoot:.2f}")
-
-### Rounds down the area to the nearest whole number.
-print(f"Area rounded down: {AreaDown:.2f} square meters")
-
-### Rounds up the area to the nearest whole number.
-print(f"Area rounded up: {AreaUp:.2f} square meters")
-
-## Sample Output
-### Input: 5 
-### Area of Garden is: 78.54 square meters
-### Circumference of Garden is: 31.42 meters
-### Square root of the area is : 8.86
-### Area rounded down: 78 square meters
-### Area rounded up: 79 square meters
-
-### Problem Identification = Developing a python program that will determine information about the garden based on a radius entered by the user.
-### Problem Decomposition = Getting the information (input), Calculating the information (Process), Displaying the results (Output)
-### Data Representation = in numbers (meters) 
+## Author: Princess Sofia H. Macala
+## Section: 8 - Adelfa

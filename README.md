@@ -28,33 +28,60 @@
 
 ## Algorithm Development
 import math
+
 input radius
+
 calculate area
+
 calculate circumference
+
 calculate square root of area
+
 calculate rounded down area 
+
 calculate rounded up area
+
 output area to 2 decimal places
+
 output circumference to 2 decimal places
+
 output square root of area to 2 decimal places
+
 output rounded down area 
+
 output rounded up area
+
 
 ## Sample Output #1
 Input: 5 
+
 Area of Garden is: 78.54 square meters
+
 Circumference of Garden is: 31.42 meters
+
 Square root of the area is : 8.86
+
+
 Area rounded down: 78 square meters
+
+
 Area rounded up: 79 square meters
+
+
 
 ## Sample Output #2
 Input: 7
+
 Area of Garden is: 153.94 square meters
+
 Circumference of Garden is: 43.98 meters
+
 Square root of the area is : 12.41
+
 Area rounded down: 153 square meters
+
 Area rounded up: 154 square meters
+
 
 ## Author: Princess Sofia H. Macala
 ## Section: 8 - Adelfa

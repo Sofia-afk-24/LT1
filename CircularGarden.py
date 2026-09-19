@@ -23,7 +23,7 @@ GardenRadius = float(input("Enter Garden radius in meters: "))
 # ======================================================================================================================
 
 # Calculates for the area of the circular garden.
-Area = math.pi*math.pow(GardenRadius, GardenRadius)
+Area = math.pi*math.pow(GardenRadius, 2)
 
 # Calculates for the circumference of the circular garden.
 Circumference = 2*math.pi*GardenRadius
@@ -42,16 +42,16 @@ AreaUp = math.ceil(Area)
 # ======================================================================================================================
 
 # Display the area of the garden
-print(f"Area of Garden is: {Area:.2f}")
+print(f"Area of Garden is: {Area:.2f} square meters")
 
 # Display the circumference of the garden
-print(f"Circumference of Garden is: {Circumference:.2f}")
+print(f"Circumference of Garden is: {Circumference:.2f} meters")
 
 # Display the square root of the garden
 print(f"Square root of Garden is: {SquareRoot:.2f}")
 
 # Rounds down the area to the nearest whole number.
-print(f"Area rounded down: {AreaDown:.2f}")
+print(f"Area rounded down: {AreaDown:.2f} square meters")
 
 # Rounds up the area to the nearest whole number.
-print(f"Area rounded up: {AreaUp:.2f}")
+print(f"Area rounded up: {AreaUp:.2f} square meters")

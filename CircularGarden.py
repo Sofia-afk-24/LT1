@@ -48,7 +48,7 @@ print(f"Area of Garden is: {Area:.2f} square meters")
 print(f"Circumference of Garden is: {Circumference:.2f} meters")
 
 # Display the square root of the garden
-print(f"Square root of Garden is: {SquareRoot:.2f}")
+print(f"Square root of Area is: {SquareRoot:.2f}")
 
 # Rounds down the area to the nearest whole number.
 print(f"Area rounded down: {AreaDown:.2f} square meters")

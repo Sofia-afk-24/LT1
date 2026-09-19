@@ -48,3 +48,8 @@ print(f"Area rounded down: {AreaDown:.2f}")
 
 ### Rounds up the area to the nearest whole number.
 print(f"Area rounded up: {AreaUp:.2f}")
+
+
+### Problem Identification = Developing a python program that will determine information about the garden based on a radius entered by the user.
+### Problem Decomposition = Getting the information (input), Calculating the information (Process), Displaying the results (Output)
+### Data Representation = in numbers (meters) 
